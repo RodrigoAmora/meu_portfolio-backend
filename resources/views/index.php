@@ -9,28 +9,28 @@
 
 		<div class="jumbotron">
 			<h1>Rodrigo Amora</h1>
+			<hr>
 			<p class="lead">
 				Desenvolvedor Web e Mobile.<br/>
 
 				<ul>
-					<li>Desenvolvimento de Aplicativos Mobile</li>
-					<li>Desenvolvimento de Sitemas Web</li>
-					<li>Desenvolvimento de Sites</li>
+					<li>Desenvolvimento de Aplicativos Mobile;</li>
+					<li>Desenvolvimento de Sitemas Web;</li>
+					<li>Desenvolvimento de Sites;</li>
 				</ul>
 			</p>
 			
 			<br><br>
 			<!--
-			<p>
+			<p class="lead">
 				<b>Meu apps Mobile:</b><br/>
-				<a href="http://goo.gl/Y7D9X" target="_blank"><img src="resources/imagens/play_store.png" alt="Meus apps Anroid."  width="90" height="90"></a>
-				<a href="https://goo.gl/sVpNU7" target="_blank"><img src="resources/imagens/app_store.png"  width="90" height="90"></a>
+				<a href="https://goo.gl/Y7D9X" target="_blank"><img src="images/play_store.png" alt="Meus apps Anroid." width="120" height="90"></a>
+				<a href="https://goo.gl/sVpNU7" target="_blank"><img src="images/app_store.png"  width="120" height="90"></a>
 			</p>
-
 			<br>
 			-->
-			<p>
-				<b>Redes Sociais:</b><br/>
+			<p class="lead">
+				<strong>Redes Sociais:</strong><br/>
 				<a href="https://goo.gl/729QP" target="_blank"><img src="images/github.png" width="90" height="90"></a>
 				<a href="https://goo.gl/FNd1sV" target="_blank"><img src="images/linkedin.png" width="90" height="90"></a>
 				<a href="https://goo.gl/Rx0G1" target="_blank"><img src="images/twitter.png" width="90" height="90"></a>
