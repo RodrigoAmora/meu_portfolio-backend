@@ -11,8 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'Controller@index');
 
 Route::get('/projetos', 'ProjetoController@listarTodosOsProjetos');
