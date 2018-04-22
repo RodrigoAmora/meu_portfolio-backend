@@ -16,7 +16,7 @@
         <div class="about-text">
           <p>Olá, bom dia!<br> Me chamo Rodrigo Amora, sou Desenvolvedor Web e Mobile.</p>
           <p>Eu trabalho com a criação de Sites, Sistemas Web e Aplicativos Mobile (Android & iOS).</p>
-          <a href="/projetos" class="btn btn-primary btn-lg page-scroll">Meu Portfolio</a> </div>
+          <a href="projetos#nav" class="btn btn-primary btn-lg page-scroll">Meu Portfolio</a> </div>
       </div>
     </div>
   </div>
