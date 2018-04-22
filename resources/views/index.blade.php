@@ -4,17 +4,17 @@
 	<title>Rodrigo Amora</title>
 
 	<!-- Favicons -->
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
 	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
 	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
 	<!-- Stylesheet -->
-	<link rel="stylesheet" type="text/css"  href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
@@ -46,14 +46,12 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
       </div>
       
-      <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-main-collapse">
         <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"> <a href="#page-top"></a> </li>
           <li> <a class="page-scroll" href="/">Home</a> </li>
-          <li> <a class="page-scroll" href="/#about">About</a> </li>
-          <li> <a class="page-scroll" href="/projetos#portfolio">Portfolio</a> </li>
+          <li> <a class="page-scroll" href="/#about">Sobre mim</a> </li>
+          <li> <a class="page-scroll" href="projetos#portfolio">Portfolio</a> </li>
           <li> <a class="page-scroll" href="#">Contato</a> </li>
           <li> <a class="page-scroll" href="#portfolio">Blog</a> </li>
         </ul>
@@ -62,8 +60,8 @@
   </nav>
 </div>
 	
-	@yield('body')
-	@yield('projetos')
+@yield('body')
+@yield('projetos')
 
 <!-- Footer -->
 <div id="footer">
@@ -79,13 +77,13 @@
 
   	<div class="col-6 col-md-4">
   		<h5>Redes Sociais</h5>
-  		<img src="img/github.png" width="35" height="35">
-  		<img src="img/linkedin.png" width="35" height="35">
-  		<img src="img/twitter.png" width="35" height="35">
-  		<img src="img/facebook.png" width="35" height="35">
-  		<img src="img/instagram.png" width="35" height="35">
-  		<img src="img/slideshare.png" width="35" height="35">
-  		<img src="img/skoob.png" width="35" height="35">
+  		<a href="https://goo.gl/729QP" target="_blank"><img src="img/github.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/FNd1sV" target="_blank"><img src="img/linkedin.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/Rx0G1" target="_blank"><img src="img/twitter.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/766xci" target="_blank"><img src="img/facebook.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/aP2Ku3" target="_blank"><img src="img/instagram.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/lwF6Sz" target="_blank"><img src="img/slideshare.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/zAsIGY" target="_blank"><img src="img/skoob.png" width="35" height="35"></a>
   	</div>
   </div>
 </div>
