@@ -24,7 +24,11 @@ return [
         'secret' => env('SES_SECRET'),
         'region' => env('SES_REGION', 'us-east-1'),
     ],
-
+    /*
+    'mandrill' => [
+        'secret' => env('MANDRILL_KEY'),
+    ],
+    */
     'sparkpost' => [
         'secret' => env('SPARKPOST_SECRET'),
     ],
