@@ -49,11 +49,11 @@
       <div class="collapse navbar-collapse navbar-main-collapse">
         <ul class="nav navbar-nav">
           <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="/">Home</a> </li>
-          <li> <a class="page-scroll" href="/#about">Sobre mim</a> </li>
-          <li> <a class="page-scroll" href="projetos#portfolio">Portfolio</a> </li>
-          <li> <a class="page-scroll" href="#">Contato</a> </li>
-          <li> <a class="page-scroll" href="#portfolio">Blog</a> </li>
+          <li> <a class="page-scroll" href="#about">Home</a> </li>
+          <li> <a class="page-scroll" href="/#nav">Sobre mim</a> </li>
+          <li> <a class="page-scroll" href="projetos#nav">Portfolio</a> </li>
+          <li> <a class="page-scroll" href="contato#nav">Contato</a> </li>
+          <li> <a class="page-scroll" href="#">Blog</a> </li>
         </ul>
       </div>
     </div>
@@ -61,7 +61,6 @@
 </div>
 	
 @yield('body')
-@yield('projetos')
 
 <!-- Footer -->
 <div id="footer">
@@ -77,28 +76,63 @@
 
   	<div class="col-6 col-md-4">
   		<h5>Redes Sociais</h5>
-  		<a href="https://goo.gl/729QP" target="_blank"><img src="img/github.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/FNd1sV" target="_blank"><img src="img/linkedin.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/Rx0G1" target="_blank"><img src="img/twitter.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/766xci" target="_blank"><img src="img/facebook.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/aP2Ku3" target="_blank"><img src="img/instagram.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/lwF6Sz" target="_blank"><img src="img/slideshare.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/zAsIGY" target="_blank"><img src="img/skoob.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/729QP" target="_blank"><img src="img/redes_sociais/github.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/FNd1sV" target="_blank"><img src="img/redes_sociais/linkedin.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/Rx0G1" target="_blank"><img src="img/redes_sociais/twitter.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/766xci" target="_blank"><img src="img/redes_sociais/facebook.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/aP2Ku3" target="_blank"><img src="img/redes_sociais/instagram.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/lwF6Sz" target="_blank"><img src="img/redes_sociais/slideshare.png" width="35" height="35"></a>
+  		<a href="https://goo.gl/zAsIGY" target="_blank"><img src="img/redes_sociais/skoob.png" width="35" height="35"></a>
   	</div>
   </div>
 </div>
 
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/easypiechart.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/jquery.counterup.js"></script>
+<script type="text/javascript" src="js/waypoints.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+
+<script type="text/javascript">
+$(function() {
+  $("#errorName").hide();
+  $("#errorEmail").hide();
+  $("#errorAssnto").hide();
+  $("#errorMsg").hide();
+
+  $( "#contactForm" ).submit(function( event ) {
+    $("#errorName").hide();
+    $("#errorEmail").hide();
+    $("#errorAssnto").hide();
+    $("#errorMsg").hide();
+
+    if ($("input#name").val() == "") {
+      $("#errorName").show();
+      event.preventDefault();
+    }
+    if ($("input#email").val() == "") {
+      $("#errorEmail").show();
+      event.preventDefault();
+    }
+    if ($("input#assunto").val() == "") {
+      $("#errorAssnto").show();
+      event.preventDefault();
+    }
+    if ($("#message").val() == "") {
+      $("#errorMsg").show();
+      event.preventDefault();
+    }
+
+    $( "#contactForm" ).submit();
+  });
+
+});
+</script>
 
 </body>
 </html>
