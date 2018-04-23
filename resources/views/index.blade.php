@@ -49,11 +49,11 @@
       <div class="collapse navbar-collapse navbar-main-collapse">
         <ul class="nav navbar-nav">
           <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#about">Home</a> </li>
-          <li> <a class="page-scroll" href="/#nav">Sobre mim</a> </li>
+          <li> <a class="page-scroll" href="./#about">Home</a> </li>
+          <li> <a class="page-scroll" href="./#nav">Sobre mim</a> </li>
           <li> <a class="page-scroll" href="projetos#nav">Portfolio</a> </li>
           <li> <a class="page-scroll" href="contato#nav">Contato</a> </li>
-          <li> <a class="page-scroll" href="#">Blog</a> </li>
+          <li> <a class="page-scroll" href="/">Blog</a> </li>
         </ul>
       </div>
     </div>
@@ -97,42 +97,7 @@
 <script type="text/javascript" src="js/waypoints.js"></script>
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-
-<script type="text/javascript">
-$(function() {
-  $("#errorName").hide();
-  $("#errorEmail").hide();
-  $("#errorAssnto").hide();
-  $("#errorMsg").hide();
-
-  $( "#contactForm" ).submit(function( event ) {
-    $("#errorName").hide();
-    $("#errorEmail").hide();
-    $("#errorAssnto").hide();
-    $("#errorMsg").hide();
-
-    if ($("input#name").val() == "") {
-      $("#errorName").show();
-      event.preventDefault();
-    }
-    if ($("input#email").val() == "") {
-      $("#errorEmail").show();
-      event.preventDefault();
-    }
-    if ($("input#assunto").val() == "") {
-      $("#errorAssnto").show();
-      event.preventDefault();
-    }
-    if ($("#message").val() == "") {
-      $("#errorMsg").show();
-      event.preventDefault();
-    }
-
-    $( "#contactForm" ).submit();
-  });
-
-});
-</script>
+<script type="text/javascript" src="js/enviarEmail.js"></script>
 
 </body>
 </html>
