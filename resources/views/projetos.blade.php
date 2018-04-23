@@ -27,6 +27,7 @@
 	<div class="section-title text-center center">
 		<h4>Projetos Pessoais</h4>
     </div>
+
     <div class="row">
 		<div class="portfolio-items">
 			<div class="col-sm-6 col-md-3 col-lg-3 app">
@@ -67,10 +68,35 @@
 
 	<!-- Projetos Freelancer -->
 	<div class="section-title text-center center">
-		<h4>Projetos Pessoais</h4>
+		<h4>Projetos Freelancer</h4>
     </div>
+
     <div class="row">
-    	
+    	<div class="portfolio-items">
+			<?php foreach ($projetosFreela as $proj): ?>
+		    	<div class="col-sm-6 col-md-3 col-lg-3 <?= $proj->tipo ?>">
+		    		<div class="portfolio-item">
+				    	<div class="card" style="width: 18rem;">
+						  	<div class="card-body">
+						    	<h5 class="card-title text-center">
+						    		<strong><?= $proj->nome ?></strong>
+						    	</h5>
+
+						    	<hr>
+
+						    	<p class="card-text text-center">
+						    		<?= $proj->descricao ?>
+						    	</p>
+						    	
+						    	<div class="text-center">
+						    		<a href="<?= $proj->link ?>" class="btn btn-primary" target="_blank">ACESSE</a>
+						    	</div>
+						  	</div>
+						</div>
+					</div>
+				</div>
+			<?php endforeach ?>
+		</div>
   	</div>
 </div>
 <br>

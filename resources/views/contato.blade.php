@@ -55,12 +55,12 @@
 
 		        <div class="social">
 		          	<ul>
+		          		<li>
+			            	<a href="https://goo.gl/FNd1sV" target="_blank"><img src="img/redes_sociais/linkedin.png" width="35" height="35"></a>
+			            </li>
+			            
 			            <li>
 			            	<a href="https://goo.gl/729QP" target="_blank"><img src="img/redes_sociais/github.png" width="35" height="35"></a>
-			            </li>
-
-			            <li>
-			            	<a href="https://goo.gl/FNd1sV" target="_blank"><img src="img/redes_sociais/linkedin.png" width="35" height="35"></a>
 			            </li>
 
 			            <li>

@@ -76,8 +76,8 @@
 
   	<div class="col-6 col-md-4">
   		<h5>Redes Sociais</h5>
+      <a href="https://goo.gl/FNd1sV" target="_blank"><img src="img/redes_sociais/linkedin.png" width="35" height="35"></a>
   		<a href="https://goo.gl/729QP" target="_blank"><img src="img/redes_sociais/github.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/FNd1sV" target="_blank"><img src="img/redes_sociais/linkedin.png" width="35" height="35"></a>
   		<a href="https://goo.gl/Rx0G1" target="_blank"><img src="img/redes_sociais/twitter.png" width="35" height="35"></a>
   		<a href="https://goo.gl/766xci" target="_blank"><img src="img/redes_sociais/facebook.png" width="35" height="35"></a>
   		<a href="https://goo.gl/aP2Ku3" target="_blank"><img src="img/redes_sociais/instagram.png" width="35" height="35"></a>
