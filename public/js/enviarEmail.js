@@ -5,7 +5,8 @@ $(function() {
   $("#errorEmail").hide();
   $("#errorAssnto").hide();
   $("#errorMsg").hide();
-
+  $("#success").hide();
+  
   $("#contactForm").submit(function( event ) {
     $("#errorName").hide();
     $("#errorEmail").hide();
@@ -35,9 +36,10 @@ $(function() {
 
     if (result == true) {
       $("#contactForm").submit();
+      $("#success").show();
+      event.preventDefault();
     } else {
       event.preventDefault();
     }
   });
-
 });

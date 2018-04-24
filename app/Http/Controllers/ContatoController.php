@@ -31,11 +31,12 @@ class ContatoController extends Controller {
         \MandrillMail::messages()->sendTemplate($template_name, $template_content, $message);
         */
 
-        $msg = $request->mensagem;
         $email = $request->email;
         $nome = $request->nome;
         $assunto = $request->assunto;
         $msg = $request->mensagem;
+
+        $msg = "Nome: ".$nome."\nE-mail: ".$email."\n\n".$request->mensagem;
 
         Mail::raw($msg, function ($message) use($msg, $email, $nome, $assunto) {
             $message->from('rodrigo.amora.freitas@gmail.com', 'Rodrigo Amora')->to('rodrigo.amora.freitas@gmail.com')->subject($assunto);
