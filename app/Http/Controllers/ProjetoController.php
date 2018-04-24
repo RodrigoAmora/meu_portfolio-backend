@@ -6,7 +6,8 @@ class ProjetoController extends Controller {
 
 	public function listarTodosOsProjetos() {
         $projetosFreela = DB::select('select * from trabalhos_freelancer');
-		return view('projetos')->with('projetosFreela', $projetosFreela);
+        $projetosPessoais = DB::select('select * from trabalhos_pessoais');
+		return view('projetos')->with(['projetosFreela' => $projetosFreela, 'projetosPessoais' => $projetosPessoais]);
 	}
 
 }
