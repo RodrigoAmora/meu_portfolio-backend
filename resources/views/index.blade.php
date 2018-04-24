@@ -4,7 +4,7 @@
 	<title>Rodrigo Amora</title>
 
 	<!-- Favicons -->
-	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<link rel="shortcut icon" href="img/donatello.png" type="image/png">
 	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
@@ -68,21 +68,24 @@
   	<div class="col-6 col-md-4">
   		<h5>Contato</h5>
     	<p>
-    		<ul>
-    			<li><strong>E-mail:</strong> rodrigo.amora.freitas@gmail.com</li>
+    		<ul class="mx-auto">
+    			<li>
+            <img src="img/redes_sociais/gmail.svg" alt="LinkedIn" width="35" height="35">
+            <strong>E-mail:</strong> rodrigo.amora.freitas@gmail.com
+          </li>
     		</ul>
     	</p>
   	</div>
 
   	<div class="col-6 col-md-4">
   		<h5>Redes Sociais</h5>
-      <a href="https://goo.gl/FNd1sV" target="_blank"><img src="img/redes_sociais/linkedin.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/729QP" target="_blank"><img src="img/redes_sociais/github.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/Rx0G1" target="_blank"><img src="img/redes_sociais/twitter.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/766xci" target="_blank"><img src="img/redes_sociais/facebook.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/aP2Ku3" target="_blank"><img src="img/redes_sociais/instagram.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/lwF6Sz" target="_blank"><img src="img/redes_sociais/slideshare.png" width="35" height="35"></a>
-  		<a href="https://goo.gl/zAsIGY" target="_blank"><img src="img/redes_sociais/skoob.png" width="35" height="35"></a>
+      <a href="https://goo.gl/FNd1sV" target="_blank"><img src="img/redes_sociais/linkedin.png" alt="LinkedIn" width="35" height="35"></a>
+  		<a href="https://goo.gl/729QP" target="_blank"><img src="img/redes_sociais/github-light.png" alt="GitHub" width="35" height="35"></a>
+  		<a href="https://goo.gl/Rx0G1" target="_blank"><img src="img/redes_sociais/twitter.png" alt="Twitter" width="35" height="35"></a>
+  		<a href="https://goo.gl/766xci" target="_blank"><img src="img/redes_sociais/facebook.png" alt="Facebook" width="35" height="35"></a>
+  		<a href="https://goo.gl/aP2Ku3" target="_blank"><img src="img/redes_sociais/instagram.png" alt="Instagram" width="35" height="35"></a>
+  		<a href="https://goo.gl/lwF6Sz" target="_blank"><img src="img/redes_sociais/slideshare.png" alt="SlideShare" width="35" height="35"></a>
+  		<a href="https://goo.gl/zAsIGY" target="_blank"><img src="img/redes_sociais/skoob.png" alt="Skoob" width="35" height="35"></a>
   	</div>
   </div>
 </div>
