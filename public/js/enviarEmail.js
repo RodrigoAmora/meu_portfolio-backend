@@ -36,7 +36,6 @@ $(function() {
 
     if (result == true) {
       $("#contactForm").submit();
-      $("#success").show();
       event.preventDefault();
     } else {
       event.preventDefault();
