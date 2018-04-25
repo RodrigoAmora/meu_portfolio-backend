@@ -77,6 +77,10 @@
 			            <li>
 			            	<a href="https://goo.gl/zAsIGY" target="_blank"><img src="img/redes_sociais/skoob.png" alt="Skoob" width="35" height="35"></a>
 			            </li>
+
+			            <li>
+			            	<a href="callto:rodrigo.amora"><img src="img/redes_sociais/skype.png" alt="Skoob" width="35" height="35"></a>
+			            </li>
 		          	</ul>
 		        </div>
 	      	</div>

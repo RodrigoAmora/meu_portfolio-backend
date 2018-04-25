@@ -30,55 +30,27 @@
 	    </div>
 	    
 		<div class="portfolio-items">
-			<div class="overlay col-sm-6 col-md-3 col-lg-3 app">
-				<div class="portfolio-item">
-			    	<div class="card text-center">
-			    		<img src="img/portfolio/play_store.png" class="rounded" rel="prettyPhoto" alt="Apps Android">
-					  	<div class="card-body">
-					    	<h5>Meu apps Android</h5>
-					    	<hr>
-					    	<p>Meus aplicativos pessoais para Android.</p>
-					    	<div class="text-center">
-					    		<a href="https://goo.gl/Y7D9X" class="btn btn-primary" target="_blank">ACESSE</a>
-					    	</div>
-					  	</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-sm-6 col-md-3 col-lg-3 app">
-				<div class="portfolio-item">
-			    	<div class="card text-center">
-			    		<img src="img/portfolio/app_store.png" class="rounded" alt="Apps Android">
-					  	<div class="card-body text-center">
-					    	<h5>Meu apps iOS</h5>
-					    	<hr>
-					    	<p>Meus aplicativos pessoais para iOS.</p>
-					    	<div class="text-center">
-					    		<a href="https://goo.gl/sVpNU7" class="btn btn-primary" target="_blank">ACESSE</a>
-					    	</div>
-					  	</div>
-					</div>
-				</div>
-			</div>
-
 			<?php foreach ($projetosPessoais as $proj): ?>
-				<div class="col-sm-6 col-md-3 col-lg-3 <?= $proj->tipo ?>">
+				<div class="col-sm-6 col-md-3 col-lg-3 {{$proj->tipo}}">
 		    		<div class="portfolio-item">
-				    	<div class="card" style="width: 18rem;">
+		    			<!--
+						<div class="card text-center" style="width: 18rem;">
+		    			-->
+				    	<div class="card text-center">
+				    		<img src="img/portfolio/{{$proj->img}}" class="rounded" width="128" height="128" alt="Apps Android">
 						  	<div class="card-body text-center">
 						    	<h5 class="card-title">
-						    		<strong><?= $proj->nome ?></strong>
+						    		<strong>{{$proj->nome}}</strong>
 						    	</h5>
 
 						    	<hr>
 
 						    	<p class="card-text text-center">
-						    		<?= $proj->desc ?>
+						    		{{$proj->desc}}
 						    	</p>
 						    	
 						    	<div class="text-center">
-						    		<a href="<?= $proj->link ?>" class="btn btn-primary" target="_blank">ACESSE</a>
+						    		<a href="{{$proj->link}}" class="btn btn-primary" title="{{$proj->nome}}" target="_blank">ACESSE</a>
 						    	</div>
 						  	</div>
 						</div>
@@ -95,22 +67,26 @@
 
     	<div class="portfolio-items">
 			<?php foreach ($projetosFreela as $proj): ?>
-		    	<div class="col-sm-6 col-md-3 col-lg-3 <?= $proj->tipo ?>">
+		    	<div class="col-sm-6 col-md-3 col-lg-3 {{$proj->tipo}}">
 		    		<div class="portfolio-item">
-				    	<div class="card" style="width: 18rem;">
+		    			<!--
+						<div class="card text-center" style="width: 18rem;">
+		    			-->
+				    	<div class="card text-center">
+				    		<img src="img/portfolio/{{$proj->img}}" class="rounded" width="128" height="128" alt="Apps Android">
 						  	<div class="card-body text-center">
 						    	<h5 class="card-title">
-						    		<strong><?= $proj->nome ?></strong>
+						    		<strong>{{$proj->nome}}</strong>
 						    	</h5>
 
 						    	<hr>
 
 						    	<p class="card-text">
-						    		<?= $proj->descricao ?>
+						    		{{$proj->descricao}}
 						    	</p>
 						    	
 						    	<div class="text-center">
-						    		<a href="<?= $proj->link ?>" class="btn btn-primary" target="_blank">ACESSE</a>
+						    		<a href="{{$proj->link}}" class="btn btn-primary" title="{{$proj->nome}}" target="_blank">ACESSE</a>
 						    	</div>
 						  	</div>
 						</div>

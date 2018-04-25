@@ -71,7 +71,12 @@
     		<ul class="mx-auto">
     			<li>
             <img src="img/redes_sociais/gmail.svg" alt="LinkedIn" width="35" height="35">
-            <strong>E-mail:</strong> rodrigo.amora.freitas@gmail.com
+            <strong>E-mail:</strong> <a href="mailto:rodrigo.amora.freitas@gmail.com">rodrigo.amora.freitas@gmail.com</a>
+          </li>
+
+          <li>
+            <img src="img/redes_sociais/skype.png" alt="LinkedIn" width="35" height="35">
+            <strong>Skype:</strong> <a href="callto:rodrigo.amora">rodrigo.amora</a>
           </li>
     		</ul>
     	</p>
@@ -86,6 +91,7 @@
   		<a href="https://goo.gl/aP2Ku3" target="_blank"><img src="img/redes_sociais/instagram.png" alt="Instagram" width="35" height="35"></a>
   		<a href="https://goo.gl/lwF6Sz" target="_blank"><img src="img/redes_sociais/slideshare.png" alt="SlideShare" width="35" height="35"></a>
   		<a href="https://goo.gl/zAsIGY" target="_blank"><img src="img/redes_sociais/skoob.png" alt="Skoob" width="35" height="35"></a>
+      <a href="callto:rodrigo.amora"><img src="img/redes_sociais/skype.png" alt="Skoob" width="35" height="35"></a>
   	</div>
   </div>
 </div>
