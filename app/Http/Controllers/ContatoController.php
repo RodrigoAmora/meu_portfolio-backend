@@ -2,7 +2,6 @@
 
 use Mail;
 use Illuminate\Http\Request;
-//use Weblee\Mandrill\Mail;
 
 class ContatoController extends Controller {
 
@@ -11,26 +10,6 @@ class ContatoController extends Controller {
 	}
 
 	public function enviarEmail(Request $request) {
-        /*
-        $template_name = 'hola mundo';
-        $template_content = array(
-            array(
-                'name' => 'test',
-                'content' => 'test'
-            )
-        );
-        $message = array(
-            'to' => array(
-                array(
-                    'email' =>  'rodrigo.amora.freitas@gmail.com',
-                    'name'  =>  'bhjbhj',
-                    'type'  => 'to'
-                )
-            )
-        );
-        \MandrillMail::messages()->sendTemplate($template_name, $template_content, $message);
-        */
-
         $email = $request->email;
         $nome = $request->nome;
         $assunto = $request->assunto;
@@ -44,4 +23,5 @@ class ContatoController extends Controller {
 
         return view('contato');
     }
+    
 }

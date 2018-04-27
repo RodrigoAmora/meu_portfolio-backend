@@ -14,12 +14,13 @@
 	      	<ul class="cat">
 	        	<li>
 	          		<ol class="type">
-	            	<li><a href="#" data-filter="*" class="active btn btn-primary">All</a></li>
-	            	<li><a href="#" data-filter=".web" class="btn btn-primary">Web</a></li>
-	            	<li><a href="#" data-filter=".app" class="btn btn-primary">Apps Mobile</a></li>
-	          	</ol>
+		            	<li><a href="#" data-filter="*" class="active btn btn-primary">All</a></li>
+		            	<li><a href="#" data-filter=".web" class="btn btn-primary">Web</a></li>
+		            	<li><a href="#" data-filter=".app" class="btn btn-primary">Apps Mobile</a></li>
+	          		</ol>
 	        	</li>
 	      	</ul>
+	      	
 	      	<div class="clearfix"></div>
 	    </div>
 
