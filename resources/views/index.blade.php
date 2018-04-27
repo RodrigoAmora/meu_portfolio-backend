@@ -70,17 +70,17 @@
     	<p>
     		<ul class="mx-auto">
     			<li>
-            <img src="img/email.png" alt="LinkedIn" width="35" height="35">
+            <img src="img/email.png" alt="E-mail" width="35" height="35">
             <strong>E-mail:</strong> <a href="mailto:rodrigo.amora.freitas@gmail.com">rodrigo.amora.freitas@gmail.com</a>
           </li>
           
           <li>
-            <img src="img/phone.svg" alt="LinkedIn" width="35" height="35">
-            <strong>Celualr:</strong> <a href="callto:+5521996335023">(21) 99633-5023</a>
+            <img src="img/phone.svg" alt="Celular" width="35" height="35">
+            <strong>Celular:</strong> <a href="callto:996335023">+55 (21) 99633-5023</a>
           </li>
 
           <li>
-            <img src="img/redes_sociais/skype.png" alt="LinkedIn" width="35" height="35">
+            <img src="img/redes_sociais/skype.png" alt="Skype" width="35" height="35">
             <strong>Skype:</strong> <a href="callto:rodrigo.amora">rodrigo.amora</a>
           </li>
     		</ul>
