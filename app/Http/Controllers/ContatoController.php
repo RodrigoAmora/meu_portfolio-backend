@@ -2,6 +2,7 @@
 
 use Mail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 class ContatoController extends Controller {
 
