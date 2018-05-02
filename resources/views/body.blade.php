@@ -2,6 +2,7 @@
 
 @section('body')
 <div id="about">
+  <!-- Sobre Mim Section -->
   <div class="section-title text-center center">
     <h2>Sobre Mim</h2>
     <hr>
@@ -9,7 +10,7 @@
 
   <div class="row">
     <div class="col-xs-12 col-md-6">
-      <img src="img/about.jpg" class="img-responsive" alt="Rodrigo Amora">
+      <img src="img/about.jpg" class="img-responsive" alt="Sobre Mim">
     </div>
     
     <div class="col-xs-12 col-md-6">
@@ -28,22 +29,29 @@
   <br><br>
 
   <!-- Serviços Section -->
-  <div class="categories">
-    <div class="container">
-      <h2 class="section-title">Serviços:</h2><hr>
+  <div class="section-title text-center center">
+    <h2>Serviços:</h2>
+    <hr>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-6 col-md-6">
+      <img src="img/android1.png" class="img-responsive botton" alt="Serviços">
     </div>
 
-    <div class="row">
-      <ol class="about-text">
-        <li><h4>Criação de Sites;</h4></li>
-        <li><h4>Criação de Sistemas Web;</h4></li>
-        <li><h4>Criação de Apps Mobile (Android & iOS);</h4></li>
-      </ol>
+    <div class="col-xs-6 col-md-6">
+      <div class="about-text">
+        <ol>
+          <li><h5>Criação de Sites;</h5></li>
+          <li><h5>Criação de Sistemas Web;</h5></li>
+          <li><h5>Criação de Apps Mobile (Android & iOS);</h5></li>
+        </ol>
+      </div>
     </div>
   </div>
 
   <!-- Skills Section -->
-  <div id="skills" class="text-center">
+  <div id="skills" class="row text-center">
     <div class="container">
       <div class="section-title center">
         <h2>Skills</h2><hr>
