@@ -30,7 +30,10 @@
         <div class="row">
           <div class="intro-text">
             <h1>Rodrigo Amora</h1>
-            <p>Desenvolvedor Web & Mobile</p>
+            <p>
+              Desenvolvedor Web & Mobile <br>
+              Scrum Master
+            </p>
             <a href="#about" class="btn btn-default btn-lg page-scroll">Ler Mais</a> </div>
         </div>
       </div>
