@@ -4,8 +4,8 @@ Disponível em: www.rodrigoamora.com.br
 
 <hr>
 
-Dependências:
--------------
+Instalar as dependências:
+-------------------------
 Para instalar as dependências:
-```groovy
-composer update --no-scripts
+`composer update --no-scripts`
+
