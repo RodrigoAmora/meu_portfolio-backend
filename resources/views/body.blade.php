@@ -42,9 +42,9 @@
     <div class="col-xs-6 col-md-6">
       <div class="about-text">
         <ol>
-          <li><h5>Criação de Sites;</h5></li>
-          <li><h5>Criação de Sistemas Web;</h5></li>
-          <li><h5>Criação de Apps Mobile (Android & iOS);</h5></li>
+          <li><h4>Criação de Sites;</h4></li>
+          <li><h4>Criação de Sistemas Web;</h4></li>
+          <li><h4>Criação de Apps Mobile (Android & iOS);</h4></li>
         </ol>
       </div>
     </div>
