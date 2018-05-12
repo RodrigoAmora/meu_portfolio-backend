@@ -58,23 +58,27 @@
       </div>
 
       <div class="row">
-          <h3>Linguagens:</h3><hr>
+          <h3>Linguagens:</h3>
+          <hr>
           <?php foreach ($linguagens as $linguagem): ?>
             <div class="col-md-3 col-sm-6 skill">
               <span class="chart" data-percent="{{$linguagem->percentual}}">
                 <span class="percent">{{$linguagem->percentual}}</span>
               </span>
+
               <h4>{{$linguagem->nome}}</h4>
             </div>
           <?php endforeach ?>
         </div>
 
-        <h4>Frameworks:</h4><hr>
+        <h4>Frameworks:</h4>
+        <hr>
         <?php foreach ($frameworks as $framework): ?>
           <div class="col-md-3 col-sm-6 skill">
             <span class="chart" data-percent="{{$framework->percentual}}">
               <span class="percent">{{$framework->percentual}}</span>
             </span>
+
             <h4>{{$framework->nome}}</h4>
           </div>
         <?php endforeach ?>

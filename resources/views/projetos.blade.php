@@ -38,7 +38,8 @@
 						<div class="card text-center" style="width: 18rem;">
 		    			-->
 				    	<div class="card text-center">
-				    		<img src="img/portfolio/{{$proj->img}}" class="rounded" width="128" height="128" alt="Apps Android">
+				    		<img src="img/portfolio/{{$proj->img}}" class="rounded" width="128" height="128">
+				    		
 						  	<div class="card-body text-center">
 						    	<h5 class="card-title">
 						    		<strong>{{$proj->nome}}</strong>
@@ -74,7 +75,8 @@
 						<div class="card text-center" style="width: 18rem;">
 		    			-->
 				    	<div class="card text-center">
-				    		<img src="img/portfolio/{{$proj->img}}" class="rounded" width="128" height="128" alt="Apps Android">
+				    		<img src="img/portfolio/{{$proj->img}}" class="rounded" width="128" height="128">
+
 						  	<div class="card-body text-center">
 						    	<h5 class="card-title">
 						    		<strong>{{$proj->nome}}</strong>
@@ -82,7 +84,7 @@
 
 						    	<hr>
 
-						    	<p class="card-text">
+						    	<p class="card-text text-center">
 						    		{{$proj->descricao}}
 						    	</p>
 						    	
