@@ -24,14 +24,14 @@
 		            	<div class="col-md-6">
 		              		<div class="form-group">
 		                		<input type="email" name="email" id="email" class="form-control" placeholder="Seu E-mail..." required="required">
-		                		<p class="help-block text-danger" id="errorEmail">E-mail vaizo!</p>
+		                		<p class="help-block text-danger" id="errorEmail">E-mail vazio!</p>
 		              		</div>
 		            	</div>
 
 		            	<div class="col-md-12">
 		              		<div class="form-group">
 		                		<input type="text" name="assunto" id="assunto" class="form-control" placeholder="Assunto..." required="required">
-		                		<p class="help-block text-danger" id="errorAssnto">Assunto vaizo!</p>
+		                		<p class="help-block text-danger" id="errorAssnto">Assunto vazio!</p>
 		              		</div>
 		            	</div>
 	          		</div>
