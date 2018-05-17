@@ -17,7 +17,7 @@
 		            	<div class="col-md-6">
 		            		<div class="form-group">
 		                		<input type="text" name="nome" id="name" class="form-control" placeholder="Seu Nome..." required>
-		                		<p class="help-block text-danger" id="errorName">Nome vaizo!</p>
+		                		<p class="help-block text-danger" id="errorName">Nome vazio!</p>
 		            		</div>
 		            	</div>
 
