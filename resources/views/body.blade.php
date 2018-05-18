@@ -57,20 +57,23 @@
         <h2>Skills</h2><hr>
       </div>
 
+      <!-- Linguagens -->
       <div class="row">
-          <h3>Linguagens:</h3>
-          <hr>
-          <?php foreach ($linguagens as $linguagem): ?>
-            <div class="col-md-3 col-sm-6 skill">
-              <span class="chart" data-percent="{{$linguagem->percentual}}">
-                <span class="percent">{{$linguagem->percentual}}</span>
-              </span>
+        <h3>Linguagens:</h3>
+        <hr>
+        <?php foreach ($linguagens as $linguagem): ?>
+          <div class="col-md-3 col-sm-6 skill">
+            <span class="chart" data-percent="{{$linguagem->percentual}}">
+              <span class="percent">{{$linguagem->percentual}}</span>
+            </span>
 
-              <h4>{{$linguagem->nome}}</h4>
-            </div>
-          <?php endforeach ?>
-        </div>
+            <h4>{{$linguagem->nome}}</h4>
+          </div>
+        <?php endforeach ?>
+      </div>
 
+      <!-- Frameworks -->
+      <div class="row">
         <h4>Frameworks:</h4>
         <hr>
         <?php foreach ($frameworks as $framework): ?>
@@ -82,6 +85,22 @@
             <h4>{{$framework->nome}}</h4>
           </div>
         <?php endforeach ?>
+      </div>
+
+      <!-- Bancos de Dados: -->
+      <div class="row">
+        <h4>Bancos de Dados:</h4>
+        <hr>
+        <?php foreach ($databases as $db): ?>
+          <div class="col-md-3 col-sm-6 skill">
+            <span class="chart" data-percent="{{$db->percentual}}">
+              <span class="percent">{{$db->percentual}}</span>
+            </span>
+
+            <h4>{{$db->nome}}</h4>
+          </div>
+        <?php endforeach ?>
+      </div>
     </div>
   </div>
 </div>

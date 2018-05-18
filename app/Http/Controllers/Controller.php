@@ -16,6 +16,7 @@ class Controller extends BaseController
     public function index() {
     	$frameworks = DB::select("select * from skills where tipo='framework'");
     	$linguagens = DB::select("select * from skills where tipo='language'");
-    	return view('body')->with(['linguagens' => $linguagens, "frameworks" => $frameworks]);
+    	$databases = DB::select("select * from skills where tipo='database'");
+    	return view('body')->with(['linguagens' => $linguagens, "frameworks" => $frameworks, "databases" => $databases]);
     }
 }
