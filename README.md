@@ -1,7 +1,7 @@
 # meu-portfolio-backend
 Meu site de portfolio criado usando PHP com o framework Laravel 5.6.17 <br>
 
-Instalar as dependências:
+Instalando as dependências:
 -------------------------
 `composer update --no-scripts`
 
