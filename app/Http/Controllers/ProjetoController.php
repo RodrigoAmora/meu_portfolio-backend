@@ -9,7 +9,7 @@ class ProjetoController extends Controller {
 		$projetosService = new ProjetosServices();
         $projetosFreela = $projetosService->listarProjetosFreelancer();
         $projetosPessoais = $projetosService->listarProjetosPessoais();
-		return view('projetos')->with(['projetosFreela' => $projetosFreela, 'projetosPessoais' => $projetosPessoais]);
+		return view('projetos/projetos')->with(['projetosFreela' => $projetosFreela, 'projetosPessoais' => $projetosPessoais]);
 	}
 
 }
