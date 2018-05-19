@@ -7,16 +7,17 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
-use Illuminate\Support\Facades\DB;
+use App\Http\Services\SkillsService;
 
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index() {
-    	$frameworks = DB::select("select * from skills where tipo='framework'");
-    	$linguagens = DB::select("select * from skills where tipo='language'");
-    	$databases = DB::select("select * from skills where tipo='database'");
+    	$skillsServices = new SkillsService();
+    	$databases = $skillsServices->listarBancosDeDados();
+    	$frameworks = $skillsServices->listarFrameworks();
+    	$linguagens = $skillsServices->listarLinguagens();
     	return view('body')->with(['linguagens' => $linguagens, "frameworks" => $frameworks, "databases" => $databases]);
     }
 }
