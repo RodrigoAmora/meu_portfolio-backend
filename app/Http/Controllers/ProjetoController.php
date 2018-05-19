@@ -1,13 +1,14 @@
 <?php 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Facades\DB;
+use App\Http\Services\ProjetosServices;
 
 class ProjetoController extends Controller {
 
 	public function listarTodosOsProjetos() {
-        $projetosFreela = DB::select('select * from trabalhos_freelancer');
-        $projetosPessoais = DB::select('select * from trabalhos_pessoais');
+		$projetosService = new ProjetosServices();
+        $projetosFreela = $projetosService->listarProjetosFreelancer();
+        $projetosPessoais = $projetosService->listarProjetosPessoais();
 		return view('projetos')->with(['projetosFreela' => $projetosFreela, 'projetosPessoais' => $projetosPessoais]);
 	}
 
