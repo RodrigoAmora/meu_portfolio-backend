@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+use App\Http\Services\ProjetosService;
 
 Route::get('/', 'Controller@index');
 
@@ -20,3 +21,12 @@ Route::get('/contato', function () {
 Route::get('/enviarEmail', 'ContatoController@enviarEmail');
 
 Route::get('/projetos', 'ProjetoController@listarTodosOsProjetos');
+
+Route::group(['prefix' => 'api'], function() {
+	Route::group(['prefix' => 'projetos'], function() {
+		Route::get('projetosPessoais', function() {
+			$service = new ProjetosService();
+			return $service->listarProjetosPessoaisAPI();
+		});
+	});
+});
