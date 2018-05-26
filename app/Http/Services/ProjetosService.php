@@ -3,7 +3,7 @@ namespace App\Http\Services;
 
 use Illuminate\Support\Facades\DB;
 
-class ProjetosServices {
+class ProjetosService {
 	
 	public function listarProjetosFreelancer() {
 		return DB::select('select * from trabalhos_freelancer');
