@@ -11,7 +11,7 @@
   <!-- Sobre mim Section -->
   <div class="row">
     <div class="col-xs-12 col-md-6">
-      <img src="img/about.jpg" class="img-responsive" alt="Sobre Mim">
+      <img src="img/about-dev.jpeg" class="img-responsive" alt="Sobre Mim">
     </div>
     
     <div class="col-xs-12 col-md-6">
