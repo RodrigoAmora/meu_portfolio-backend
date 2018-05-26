@@ -8,6 +8,7 @@
     <hr>
   </div>
 
+  <!-- Sobre mim Section -->
   <div class="row">
     <div class="col-xs-12 col-md-6">
       <img src="img/about.jpg" class="img-responsive" alt="Sobre Mim">
@@ -21,6 +22,10 @@
           Eu trabalho com a criação de Sites, Sistemas Web e Aplicativos Mobile (Android & iOS).
         </p>
 
+        <p>
+          Você está precisando criar alguma dessas soluções?<br>
+          Entre em contato comigo: <a href="mailto:rodrigo.amora.freitas@gmail.com">rodrigo.amora.freitas@gmail.com</a>
+        </p>
         <a href="projetos#nav" class="btn btn-primary btn-lg page-scroll">Meu Portfolio</a>
       </div>
     </div>
