@@ -41,7 +41,7 @@
 
   <div class="row">
     <div class="col-xs-6 col-md-6">
-      <img src="img/android1.png" class="img-responsive botton" alt="Serviços">
+      <img src="img/android2.png" class="img-responsive botton" alt="Serviços">
     </div>
 
     <div class="col-xs-6 col-md-6">
