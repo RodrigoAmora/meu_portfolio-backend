@@ -12,6 +12,7 @@
 */
 use App\Http\Services\ProjetosService;
 
+
 Route::get('/', 'Controller@index');
 
 Route::get('/contato', function () {
