@@ -9,8 +9,8 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
 use App\Http\Services\SkillsService;
 
-class Controller extends BaseController
-{
+class Controller extends BaseController {
+
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
     public function index() {
@@ -20,4 +20,5 @@ class Controller extends BaseController
     	$linguagens = $skillsServices->listarLinguagens();
     	return view('body')->with(['linguagens' => $linguagens, "frameworks" => $frameworks, "databases" => $databases]);
     }
+    
 }
