@@ -9,7 +9,6 @@ Rodando o servidor:
 -------------------
 `php artisan serve --host=0.0.0.0 --port=4200`
 
-<br>
 <hr>
 
 Disponível em: www.rodrigoamora.com.br
