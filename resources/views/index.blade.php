@@ -65,7 +65,7 @@
 @yield('body')
 
 <!-- Footer -->
-<div id="footer">
+<footer id="footer">
   <div class="container">
   	<div class="col-6 col-md-4">
   		<h5>Contato</h5>
@@ -101,7 +101,7 @@
       <a href="callto:rodrigo.amora"><img src="img/redes_sociais/skype.png" alt="Skoob" width="35" height="35"></a>
   	</div>
   </div>
-</div>
+</footer>
 
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
