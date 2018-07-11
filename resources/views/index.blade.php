@@ -16,7 +16,6 @@
 	<!-- Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/btn_to_top.css">
-	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 </head>
@@ -111,15 +110,14 @@
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/btn_to_top.js"></script>
+<script type="text/javascript" src="js/enviarEmail.js"></script>
 <script type="text/javascript" src="js/SmoothScroll.js"></script>
 <script type="text/javascript" src="js/easypiechart.js"></script>
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="js/jquery.isotope.js"></script>
 <script type="text/javascript" src="js/jquery.counterup.js"></script>
 <script type="text/javascript" src="js/waypoints.js"></script>
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="js/enviarEmail.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
 </body>
