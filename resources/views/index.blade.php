@@ -15,6 +15,7 @@
 
 	<!-- Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/btn_to_top.css">
 	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
@@ -64,6 +65,10 @@
 	
 @yield('body')
 
+<button id="myBtn" onclick="topFunction()" title="Go to top">
+  <img src="img/top.png" width="50" height="50">
+</button>
+
 <!-- Footer -->
 <footer id="footer">
   <div class="container">
@@ -105,6 +110,7 @@
 
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/btn_to_top.js"></script>
 <script type="text/javascript" src="js/SmoothScroll.js"></script>
 <script type="text/javascript" src="js/easypiechart.js"></script>
 <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
