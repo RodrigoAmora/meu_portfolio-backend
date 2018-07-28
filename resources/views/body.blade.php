@@ -1,5 +1,4 @@
 @extends('index')
-
 @section('body')
 <div id="about">
   <!-- Sobre Mim Section -->
