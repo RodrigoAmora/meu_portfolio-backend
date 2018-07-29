@@ -7,7 +7,7 @@ Instalando as dependências:
 
 Rodando o servidor:
 -------------------
-`php artisan serve --host=0.0.0.0 --port=4200`
+`php artisan serve --host=0.0.0.0 --port=8000`
 
 <hr>
 
