@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 class ContatoController extends Controller {
 
 	public function contato() {
-		view('contato');
+		return view('contato');
 	}
 
 	public function enviarEmail(Request $request) {

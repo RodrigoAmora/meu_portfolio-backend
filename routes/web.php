@@ -18,7 +18,6 @@ Route::get('/', 'Controller@index');
 Route::get('/contato', function () {
 	return view('contato');
 });
-
 Route::get('/enviarEmail', 'ContatoController@enviarEmail');
 
 Route::get('/projetos', 'ProjetoController@listarTodosOsProjetos');

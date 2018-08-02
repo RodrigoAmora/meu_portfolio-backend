@@ -1,5 +1,4 @@
 @extends('index')
-
 @section('body')
 <!-- Contato Section -->
 <div id="contact" class="text-center">
@@ -12,7 +11,7 @@
 	      	</div>
 
 	      	<div class="col-md-8 col-md-offset-2">
-	        	<form action="/enviarEmail" name="sentMessage" id="contactForm" novalidate>
+	        	<form action="./enviarEmail" name="sentMessage" id="contactForm" novalidate>
 					<div class="row">
 		            	<div class="col-md-6">
 		            		<div class="form-group">
