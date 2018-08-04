@@ -11,7 +11,8 @@
 	      	</div>
 
 	      	<div class="col-md-8 col-md-offset-2">
-	        	<form action="./enviarEmail" name="sentMessage" id="contactForm" novalidate>
+	        	<form method="POST" action="./enviarEmail" name="sentMessage" id="contactForm" novalidate>
+	        		@csrf
 					<div class="row">
 		            	<div class="col-md-6">
 		            		<div class="form-group">
