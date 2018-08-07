@@ -3,7 +3,7 @@ Meu site de portfolio criado usando PHP com o framework Laravel 5.6.17 <br>
 
 Instalando as dependências:
 -------------------------
-Local: `composer update --no-scripts` <br>
+Em desenvolvimento: `composer update --no-scripts` <br>
 Em produção: `php ../../composer.phar install --no-dev`
 
 Rodando o servidor:
