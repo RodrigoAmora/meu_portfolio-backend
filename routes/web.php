@@ -18,10 +18,14 @@ Route::get('/', 'Controller@index');
 Route::get('/contato', function () {
 	return view('contato');
 });
-Route::post('/enviarEmail', 'ContatoController@enviarEmail');
 
+Route::post('/enviarEmail', 'ContatoController@enviarEmail');
+Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/projetos', 'ProjetoController@listarTodosOsProjetos');
 
+Route::post('/autenticar', 'Auth\LoginController@authenticate');
+
+//Endpoints da API
 Route::group(['prefix' => 'api'], function() {
 	Route::group(['prefix' => 'projetos'], function() {
 		Route::get('projetosPessoais', function() {
@@ -30,3 +34,5 @@ Route::group(['prefix' => 'api'], function() {
 		});
 	});
 });
+
+Auth::routes();

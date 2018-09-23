@@ -4,9 +4,12 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
 
-class LoginController extends Controller
-{
+use App\User;
+
+class LoginController extends Controller {
     /*
     |--------------------------------------------------------------------------
     | Login Controller
@@ -25,15 +28,60 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/contato';
 
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct()
-    {
+    public function __construct() {
         $this->middleware('guest')->except('logout');
     }
+
+    public function username() {
+        return 'email';
+    }
+    
+    protected function validateLogin(Request $request) {
+        $this->validate($request, [
+            $this->username() => 'required', 'password' => 'required',
+        ]);
+    }
+
+    protected function credentials(Request $request) {
+        return $request->only($this->username(), 'senha');
+    }
+    
+
+    protected function create(array $data) {
+        return User::create([
+            'email' => $data['email'],
+            'password' => md5($data['password']),
+        ]);
+    }
+
+    public function authenticate(Request $request) {
+        $email = $request->input('email');
+        $senha = $request->input('password');
+        //$credenciais = $request->only('email', 'password');
+        
+        $user = User::where([
+            'email' => $email,
+            'password' => md5($senha)
+        ])->first();
+
+        if ($user) {
+            $this->guard()->login($user);
+            return redirect("/");
+            /*
+            if (Auth::guard('web')->login($user)) {
+                return redirect("/");
+            }
+            */
+        } else {
+            return "Não encontrado";//bcrypt($request->input('password'));
+        }
+    }
+
 }
