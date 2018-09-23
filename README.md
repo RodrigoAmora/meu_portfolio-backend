@@ -6,6 +6,10 @@ Instalando as dependências:
 Em desenvolvimento: `composer update --no-scripts` <br>
 Em produção: `php ../../composer.phar install --no-dev`
 
+Gerando a APP_KEY:
+------------------
+Executar o comando: `php artisan key:generate` e colar o base64 no artibuto  APP_KEY no arquivo `.env`
+
 Rodando o servidor:
 -------------------
 `php artisan serve --host=0.0.0.0 --port=8000`
