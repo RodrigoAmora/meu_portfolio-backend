@@ -15,6 +15,8 @@ use App\Http\Services\ProjetosService;
 
 Route::get('/', 'Controller@index');
 
+Route::get('admin', 'AdminController@index')->name('admin');
+
 Route::get('/contato', function () {
 	return view('contato');
 });
@@ -22,6 +24,9 @@ Route::get('/contato', function () {
 Route::post('/enviarEmail', 'ContatoController@enviarEmail');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/projetos', 'ProjetoController@listarTodosOsProjetos');
+Route::get('novoProjeto', function () {
+	return view('projetos/salvar');
+});
 
 Route::post('/autenticar', 'Auth\LoginController@authenticate');
 
