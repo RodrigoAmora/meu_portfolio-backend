@@ -57,7 +57,7 @@ class LoginController extends Controller {
     protected function create(array $data) {
         return User::create([
             'email' => $data['email'],
-            'password' => md5($data['password']),
+            'senha' => md5($data['password']),
         ]);
     }
 
@@ -68,7 +68,7 @@ class LoginController extends Controller {
         
         $user = User::where([
             'email' => $email,
-            'password' => md5($senha)
+            'senha' => md5($senha)
         ])->first();
 
         if ($user) {
