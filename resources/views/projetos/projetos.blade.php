@@ -31,7 +31,7 @@
 	    </div>
 	    
 		<div class="portfolio-items">
-			<?php foreach ($projetosPessoais as $proj): ?>
+			@foreach ($projetosPessoais as $proj)
 				<div class="col-sm-6 col-md-3 col-lg-3 {{$proj->tipo}}">
 		    		<div class="portfolio-item">
 		    			<!--
@@ -58,7 +58,7 @@
 						</div>
 					</div>
 				</div>
-			<?php endforeach ?>
+			@endforeach
 		</div>
 
 		<!-- Projetos Freelancer -->
@@ -68,14 +68,19 @@
 	    </div>
 
     	<div class="portfolio-items">
-			<?php foreach ($projetosFreela as $proj): ?>
+			@foreach ($projetosFreela as $proj)
 		    	<div class="col-sm-6 col-md-3 col-lg-3 {{$proj->tipo}}">
 		    		<div class="portfolio-item">
 		    			<!--
 						<div class="card text-center" style="width: 18rem;">
 		    			-->
 				    	<div class="card text-center">
-				    		<img src="img/portfolio/{{$proj->img}}" class="rounded" width="128" height="128">
+				    		<a href="img/portfolio/{{$proj->img}}" id="{{$proj->id}}" class="aa">
+				    			<img src="img/portfolio/{{$proj->img}}" class="rounded" width="128" height="128">
+				    		</a>
+
+				    		
+				    		<!-- <p id='b{{$proj->id}}' class='te'><img src='http://www.rodrigoamora.com.br/portfolio/public/img/android2.png' alt='Image preview' width="128" height="128" /></p> -->
 
 						  	<div class="card-body text-center">
 						    	<h5 class="card-title">
@@ -95,8 +100,8 @@
 						</div>
 					</div>
 				</div>
-			<?php endforeach ?>
+			@endforeach
 		</div>
   	</div>	
 </div>
-@stop
+@endsection
