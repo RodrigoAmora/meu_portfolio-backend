@@ -10,7 +10,11 @@ Gerando a APP_KEY:
 ------------------
 Executar o comando: `php artisan key:generate` e colar o base64 no artibuto  APP_KEY no arquivo `.env`
 
-Rodando o servidor:
+Executando os testes:
+---------------------
+Executar o comando `./vendor/bin/phpunit` no diretório raiz do projeto.
+
+Rodand o servidor:
 -------------------
 `php artisan serve --host=0.0.0.0 --port=8000`
 
