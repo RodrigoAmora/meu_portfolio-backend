@@ -73,7 +73,7 @@ class LoginController extends Controller {
 
         if ($user) {
             $this->guard()->login($user);
-            return redirect("admin/admin");
+            return view("novoProjeto");
             /*
             if (Auth::guard('web')->login($user)) {
                 return redirect("/");

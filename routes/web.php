@@ -24,6 +24,7 @@ Route::get('/contato', function () {
 Route::post('/enviarEmail', 'ContatoController@enviarEmail');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/projetos', 'ProjetoController@listarTodosOsProjetos');
+Route::post('salvarProjeto', 'ProjetoController@salvarProjeto');
 Route::get('novoProjeto', function () {
 	return view('projetos/salvar');
 });
