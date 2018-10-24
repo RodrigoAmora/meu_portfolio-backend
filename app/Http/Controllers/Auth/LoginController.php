@@ -64,7 +64,6 @@ class LoginController extends Controller {
     public function authenticate(Request $request) {
         $email = $request->input('email');
         $senha = $request->input('password');
-        //$credenciais = $request->only('email', 'password');
         
         $user = User::where([
             'email' => $email,
@@ -73,7 +72,7 @@ class LoginController extends Controller {
 
         if ($user) {
             $this->guard()->login($user);
-            return view("novoProjeto");
+            return redirect("admin");
             /*
             if (Auth::guard('web')->login($user)) {
                 return redirect("/");

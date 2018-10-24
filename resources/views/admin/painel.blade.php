@@ -14,8 +14,8 @@
                 @csrf
             </form>
 		</div>
-		
 	@endauth
+	
 	<hr>
 	
 	<a href="novoProjeto">Novo Projeto</a><br>
