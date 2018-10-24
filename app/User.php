@@ -32,19 +32,28 @@ class User extends Authenticatable
         return $this->password;
     }
 
-    public function setPasswordAttribute($value)
-    {
+    public function setPasswordAttribute($value) {
         $this->attributes['password'] = md5($value);
     }
 
-    public function up()
-{
-    Schema::create('users', function (Blueprint $table) {
-        $table->increments('id');
-        $table->longText('email');
-        $table->longText('password');
-        $table->rememberToken();
-        $table->timestamps();
-    });
-}
+    /**
+        * Overrides the method to ignore the remember token.
+    */
+    public function setAttribute($key, $value) {
+        $isRememberTokenAttribute = $key == $this->getRememberTokenName();
+        if (!$isRememberTokenAttribute) {
+          parent::setAttribute($key, $value);
+        }
+    }
+
+    public function up() {
+        Schema::create('users', function (Blueprint $table) {
+            $table->increments('id');
+            $table->longText('email');
+            $table->longText('password');
+            $table->rememberToken();
+            $table->timestamps();
+        });
+    }
+
 }
