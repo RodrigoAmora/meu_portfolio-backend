@@ -1,6 +1,10 @@
-@extends('admin.admin')
+@extends('admin.painel')
 @section('body')
 
-kmmkmk
+<form method="POST" action="salvarProjeto" enctype="multipart/form-data">
+	@csrf
+	<input type="file" name="photo">
+	<input type="submit" value="Evniar">
+</form>
 
 @endsection
