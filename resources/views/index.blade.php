@@ -32,6 +32,15 @@
   </style>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132808559-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132808559-1');
+</script>
 
 <!-- Header -->
 <header id="header">

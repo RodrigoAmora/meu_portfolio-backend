@@ -63,6 +63,7 @@
       </div>
     </div>
   </div>
+  
   <!-- Skills Section -->
   <div id="skills" class="row text-center">
     <div class="container">
