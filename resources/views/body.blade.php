@@ -33,35 +33,36 @@
   <br><br>
 
   <!-- Serviços Section -->
-  <div class="section-title text-center center">
-    <h2>Serviços:</h2>
-    <hr>
-  </div>
+  <div class="row" id="servicos">
+    <div class="section-title text-center center">
+      <h2>Serviços:</h2>
+      <hr>
+    </div>
 
-  <div class="row">
-    <div class="col-xs-12 col-md-12">
-      <div class="col-xs-3 col-md-3">
-        <img src="img/web-site.jpg" class="img-responsive botton" alt="Serviços"><br>
-        <h4 class="text-center">Criação de Sites</h4>
-      </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <div class="col-xs-3 col-md-3">
+          <img src="img/web-site.jpg" class="img-responsive botton" alt="Serviços"><br>
+          <p class="text-center"><b>Criação de Sites</b></p>
+        </div>
 
-      <div class="col-xs-3 col-md-3">
-          <img src="img/development.jpg" class="img-responsive botton" alt="Serviços"><br>
-          <h4 class="text-center">Criação de Sistemas Web</h4>
-      </div>
+        <div class="col-xs-3 col-md-3">
+            <img src="img/development.jpg" class="img-responsive botton" alt="Serviços"><br>
+            <p class="text-center"><b>Criação de Sistemas Web</b></p>
+        </div>
 
-      <div class="col-xs-3 col-md-3">
-          <img src="img/mobile-apps.jpg" class="img-responsive botton" alt="Serviços"><br>
-          <h4 class="text-center">Criação de Apps Mobile (Android & iOS)</h4>
-      </div>
+        <div class="col-xs-3 col-md-3">
+            <img src="img/mobile-apps.jpg" class="img-responsive botton" alt="Serviços"><br>
+            <p class="text-center"><b>Criação de Apps Mobile (Android & iOS)</b></p>
+        </div>
 
-      <div class="col-xs-3 col-md-3">
-          <img src="img/social-media.jpg" class="img-responsive botton" alt="Serviços"><br>
-          <h4 class="text-center">Social Media</h4>
+        <div class="col-xs-3 col-md-3">
+            <img src="img/social-media.jpg" class="img-responsive botton" alt="Serviços"><br>
+            <p class="text-center"><b>Social Media</b></p>
+        </div>
       </div>
     </div>
   </div>
-
   <!-- Skills Section -->
   <div id="skills" class="row text-center">
     <div class="container">

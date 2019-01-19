@@ -65,6 +65,7 @@
           <li class="hidden"> <a href="#page-top"></a> </li>
           <li> <a class="page-scroll" href="./#header">Home</a> </li>
           <li> <a class="page-scroll" href="./#about">Sobre mim</a> </li>
+          <li> <a class="page-scroll" href="./#servicos">Serviços</a> </li>
           <li> <a class="page-scroll" href="projetos#nav">Portfolio</a> </li>
           <li> <a class="page-scroll" href="contato#nav">Contato</a> </li>
           <li> <a class="page-scroll" href="http://rodrigoamora.com.br/blog" target="_blank">Blog</a> </li>
