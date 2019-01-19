@@ -39,17 +39,25 @@
   </div>
 
   <div class="row">
-    <div class="col-xs-6 col-md-6">
-      <img src="img/android2.png" class="img-responsive botton" alt="Serviços">
-    </div>
+    <div class="col-xs-12 col-md-12">
+      <div class="col-xs-3 col-md-3">
+        <img src="img/web-site.jpg" class="img-responsive botton" alt="Serviços"><br>
+        <h4 class="text-center">Criação de Sites</h4>
+      </div>
 
-    <div class="col-xs-6 col-md-6">
-      <div class="about-text">
-        <ol>
-          <li><h4>Criação de Sites;</h4></li>
-          <li><h4>Criação de Sistemas Web;</h4></li>
-          <li><h4>Criação de Apps Mobile (Android & iOS);</h4></li>
-        </ol>
+      <div class="col-xs-3 col-md-3">
+          <img src="img/development.jpg" class="img-responsive botton" alt="Serviços"><br>
+          <h4 class="text-center">Criação de Sistemas Web</h4>
+      </div>
+
+      <div class="col-xs-3 col-md-3">
+          <img src="img/mobile-apps.jpg" class="img-responsive botton" alt="Serviços"><br>
+          <h4 class="text-center">Criação de Apps Mobile (Android & iOS)</h4>
+      </div>
+
+      <div class="col-xs-3 col-md-3">
+          <img src="img/social-media.jpg" class="img-responsive botton" alt="Serviços"><br>
+          <h4 class="text-center">Social Media</h4>
       </div>
     </div>
   </div>
