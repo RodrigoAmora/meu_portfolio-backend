@@ -35,7 +35,7 @@
   <!-- Serviços Section -->
   <div class="row" id="servicos">
     <div class="section-title text-center center">
-      <h2>Serviços:</h2>
+      <h2>Serviços</h2>
       <hr>
     </div>
 
