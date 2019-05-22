@@ -145,7 +145,6 @@
 <script type="text/javascript" src="js/imagepreview.min.js"></script>
 <script type="text/javascript">
   $(function() {
-    //$('.aa').anarchytip()
     $(".te").hide();
 
     $(".aa").each(function() {

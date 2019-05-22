@@ -21,5 +21,4 @@ class ProjetoController extends Controller {
     	$image->move($destinationPath, $imagename);
     	return back()->with('success','Image Upload successful');
 	}
-
 }

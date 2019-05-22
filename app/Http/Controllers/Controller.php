@@ -20,5 +20,4 @@ class Controller extends BaseController {
     	$linguagens = $skillsServices->listarLinguagens();
     	return view('body')->with(['linguagens' => $linguagens, "frameworks" => $frameworks, "databases" => $databases]);
     }
-    
 }

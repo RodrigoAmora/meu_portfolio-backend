@@ -16,5 +16,4 @@ class SkillsService {
 	public function listarLinguagens() {
 		return DB::select("select * from skills where tipo='language'");
 	}
-
 }

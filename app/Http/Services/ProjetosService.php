@@ -20,5 +20,4 @@ class ProjetosService {
 		$projetosPessoais = ProjetoPessoal::all();
     	return response()->json($projetosPessoais);
 	}
-
 }
