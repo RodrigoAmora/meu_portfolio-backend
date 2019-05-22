@@ -2,18 +2,19 @@
 namespace App\Http\Services;
 
 use Illuminate\Support\Facades\DB;
+use App\Skill;
 
 class SkillsService {
 	
 	public function listarBancosDeDados() {
-		return DB::select("select * from skills where tipo='database'");
+		return Skill::where("tipo", "database")->get();
 	}
 
 	public function listarFrameworks() {
-		return DB::select("select * from skills where tipo='framework'");
+		return Skill::where("tipo", "framework")->get();
 	}
 
 	public function listarLinguagens() {
-		return DB::select("select * from skills where tipo='language'");
+		return Skill::where("tipo", "language")->get();
 	}
 }
