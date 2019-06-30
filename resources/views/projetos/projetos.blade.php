@@ -1,5 +1,4 @@
 @extends('index')
-
 @section('body')
 <!-- Portfolio Section -->
 <div id="portfolio">
