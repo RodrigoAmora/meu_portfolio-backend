@@ -32,7 +32,7 @@
   </style>
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132808559-1"></script>
 <script>
@@ -118,6 +118,7 @@
 
   	<div class="col-6 col-md-4">
   		<h5>Redes Sociais</h5>
+      
       <a href="https://www.linkedin.com/in/rodrigoamora" target="_blank"><img src="img/redes_sociais/linkedin.png" alt="LinkedIn" width="35" height="35"></a>
   		<a href="https://github.com/RodrigoAmora" target="_blank"><img src="img/redes_sociais/github-light.png" alt="GitHub" width="35" height="35"></a>
   		<a href="https://twitter.com/RodrigoAmora" target="_blank"><img src="img/redes_sociais/twitter.png" alt="Twitter" width="35" height="35"></a>
