@@ -118,8 +118,11 @@
 
   	<div class="col-6 col-md-4">
   		<h5>Redes Sociais</h5>
-      
-      <a href="https://www.linkedin.com/in/rodrigoamora" target="_blank"><img src="img/redes_sociais/linkedin.png" alt="LinkedIn" width="35" height="35"></a>
+
+      <a href="https://www.linkedin.com/in/rodrigoamora" target="_blank">
+        <img src="img/redes_sociais/linkedin.png" alt="LinkedIn" width="35" height="35">
+      </a>
+
   		<a href="https://github.com/RodrigoAmora" target="_blank"><img src="img/redes_sociais/github-light.png" alt="GitHub" width="35" height="35"></a>
   		<a href="https://twitter.com/RodrigoAmora" target="_blank"><img src="img/redes_sociais/twitter.png" alt="Twitter" width="35" height="35"></a>
   		<a href="https://www.facebook.com/rodrigo.amora.freitas" target="_blank"><img src="img/redes_sociais/facebook.png" alt="Facebook" width="35" height="35"></a>
