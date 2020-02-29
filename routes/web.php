@@ -14,9 +14,7 @@ use App\Http\Services\ProjetosService;
 
 
 Route::get('/', 'Controller@index');
-
 Route::get('admin', 'AdminController@index')->name('admin');
-
 Route::get('/contato', function () {
 	return view('contato');
 });
