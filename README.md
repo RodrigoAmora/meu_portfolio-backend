@@ -2,8 +2,8 @@
 Meu site de portfolio criado usando PHP com o framework Laravel 5.6.17 <br>
 <hr>
 Instalando as dependências:
--------------------------
-Em desenvolvimento: `composer update --no-scripts` <br>
+---------------------------
+Em desenvolvimento: `composer update --no-scripts`<br>
 Em produção: `php ../../composer.phar install --no-dev`
 
 Gerando a APP_KEY:
