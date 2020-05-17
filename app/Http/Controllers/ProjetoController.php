@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 
 class ProjetoController extends Controller {
-
 	public function listarTodosOsProjetos() {
 		$projetosService = new ProjetosService();
         $projetosFreela = $projetosService->listarProjetosFreelancer();
