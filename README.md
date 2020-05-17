@@ -18,5 +18,3 @@ Executar o comando: `./vendor/bin/phpunit` no diretório raiz do projeto.
 Rodando o servidor:
 -------------------
 Executar o comando: `php artisan serve --host=0.0.0.0 --port=8000`
-
-<hr>
