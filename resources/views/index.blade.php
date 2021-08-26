@@ -87,7 +87,7 @@
 	
 @yield('body')
 
-<button id="myBtn" onclick="topFunction()" title="Go to top">
+<button id="myBtn" onclick="goToTop()" title="Go to top">
   <img src="img/top.png" width="50" height="50">
 </button>
 
