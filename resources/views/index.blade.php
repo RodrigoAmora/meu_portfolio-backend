@@ -192,7 +192,6 @@
           $("#preview").remove();
         })
     })
-
   })
 </script>
 

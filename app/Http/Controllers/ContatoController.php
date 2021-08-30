@@ -22,6 +22,5 @@ class ContatoController extends Controller {
         });
 
         return view('contato');
-    }
-    
+    }   
 }
