@@ -9,13 +9,13 @@ Em produção: `php ../../composer.phar install --no-dev`
 
 Gerando a APP_KEY:
 ------------------
-Copiar o seguinte trecho no arquivo `.env`:
+Copiar o seguinte trecho no arquivo `.env`:<br>
 `
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=
-APP_DEBUG=true
-APP_URL=http://localhost
+APP_NAME=Laravel<br>
+APP_ENV=local<br>
+APP_KEY=<br>
+APP_DEBUG=true<br>
+APP_URL=http://localhost<br>
 `
 <br>
 Executar o comando: `php artisan key:generate` e colar o base64 no artibuto APP_KEY no arquivo `.env`, após isso exceutar o comando `php artisan config:cache`
