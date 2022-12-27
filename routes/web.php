@@ -39,4 +39,10 @@ Route::group(['prefix' => 'api'], function() {
 	});
 });
 
+
+Route::get('/privacy', function () {
+	return view('privacy');
+});
+
+
 Auth::routes();
