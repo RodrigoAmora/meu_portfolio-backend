@@ -7,7 +7,6 @@ use App\ProjetoFreelancer;
 use App\ProjetoPessoal;
 
 class ProjetosService {
-	
 	public function listarProjetosFreelancer() {
 		return ProjetoFreelancer::all();
 	}
